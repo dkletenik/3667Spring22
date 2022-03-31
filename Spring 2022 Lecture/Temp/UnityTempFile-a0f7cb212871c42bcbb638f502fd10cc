@@ -333,8 +333,10 @@
 /define:UNITY_STANDALONE_OSX
 /define:UNITY_TEAM_LICENSE
 /define:USE_SEARCH_ENGINE_API
+"Assets/ButtonFunctions.cs"
 "Assets/Coin.cs"
 "Assets/Movement.cs"
+"Assets/PauseResume.cs"
 "Assets/SampleScenes/Menu/Scripts/MenuSceneLoader.cs"
 "Assets/SampleScenes/Menu/Scripts/PauseMenu.cs"
 "Assets/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs"

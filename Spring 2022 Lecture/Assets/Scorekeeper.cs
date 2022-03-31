@@ -55,7 +55,7 @@ public class Scorekeeper : MonoBehaviour
 
     public void DisplayLevel()
     {
-        int levelToDisplay = level + 1;
+        int levelToDisplay = level;
         levelTxt.text = "Level " + levelToDisplay;
     }
 }
