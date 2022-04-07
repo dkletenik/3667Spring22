@@ -337,6 +337,7 @@
 "Assets/Coin.cs"
 "Assets/Movement.cs"
 "Assets/PauseResume.cs"
+"Assets/PersistentData.cs"
 "Assets/SampleScenes/Menu/Scripts/MenuSceneLoader.cs"
 "Assets/SampleScenes/Menu/Scripts/PauseMenu.cs"
 "Assets/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs"

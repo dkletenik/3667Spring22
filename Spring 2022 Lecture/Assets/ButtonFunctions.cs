@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class ButtonFunctions : MonoBehaviour
 {
+    [SerializeField] InputField playerNameInput;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +26,8 @@ public class ButtonFunctions : MonoBehaviour
 
     public void PlayGame()
     {
+        string s = playerNameInput.text;
+        PersistentData.Instance.SetName(s);
         SceneManager.LoadScene("level1");
 
     }
